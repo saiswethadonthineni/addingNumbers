@@ -13,7 +13,8 @@ public class ControllerTests {
     void addTwoNumbers(){
     int a=10;
     int b=10;
-    int res = a + b;
-    Assertions.assertEquals("sum is "+res,"sum is "+res);
+    int r=a+b;
+    String res = "sum is "+ r;
+    Assertions.assertEquals("sum is 20",res);
 }
 }
